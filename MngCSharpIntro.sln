@@ -3,21 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MngCSharpIntro", "MngCSharpIntro\MngCSharpIntro.csproj", "{ABF3EE75-5438-40C4-8B4E-69247AD43CC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MngCSharpIntro", "MngCSharpIntro\MngCSharpIntro.csproj", "{ABF3EE75-5438-40C4-8B4E-69247AD43CC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workshop1", "Workshop1\Workshop1.csproj", "{2B9B37B7-DC37-48B9-8879-45794F075030}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Workshop1", "Workshop1\Workshop1.csproj", "{2B9B37B7-DC37-48B9-8879-45794F075030}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{AA4863EE-A119-45B4-8DA2-8A284B502572}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections", "Collections\Collections.csproj", "{AA4863EE-A119-45B4-8DA2-8A284B502572}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{33876FC4-81CB-4762-A5D1-34AB4184FE22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes", "Classes\Classes.csproj", "{33876FC4-81CB-4762-A5D1-34AB4184FE22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections2", "Collections2\Collections2.csproj", "{03DE4FA5-BD7A-426E-AAA1-3DFCC5161482}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections2", "Collections2\Collections2.csproj", "{03DE4FA5-BD7A-426E-AAA1-3DFCC5161482}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{BE5BE898-9383-4ACD-A7CA-CBF0D723F217}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{BE5BE898-9383-4ACD-A7CA-CBF0D723F217}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workshop4", "Workshop4\Workshop4.csproj", "{2FC65561-5598-4861-9996-0BC7D3597690}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Workshop4", "Workshop4\Workshop4.csproj", "{2FC65561-5598-4861-9996-0BC7D3597690}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workshop6", "Workshop6\Workshop6.csproj", "{3258ADA2-5C2E-4758-8BE6-1AA33160CB9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Workshop6", "Workshop6\Workshop6.csproj", "{3258ADA2-5C2E-4758-8BE6-1AA33160CB9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{4B92E9D5-C46E-47CE-8CE5-A0C16E176187}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workshop7", "Workshop7\Workshop7.csproj", "{CF6C75DC-8A3B-4EA5-B556-1799F5A08381}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCollections", "CustomCollections\CustomCollections.csproj", "{6575B983-6B6B-439D-9F63-9BCBA82F5D0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepositoryDemo", "GenericRepositoryDemo\GenericRepositoryDemo.csproj", "{8D286076-40AF-41B5-9042-9A9EF301A321}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +65,22 @@ Global
 		{3258ADA2-5C2E-4758-8BE6-1AA33160CB9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3258ADA2-5C2E-4758-8BE6-1AA33160CB9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3258ADA2-5C2E-4758-8BE6-1AA33160CB9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B92E9D5-C46E-47CE-8CE5-A0C16E176187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B92E9D5-C46E-47CE-8CE5-A0C16E176187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B92E9D5-C46E-47CE-8CE5-A0C16E176187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B92E9D5-C46E-47CE-8CE5-A0C16E176187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF6C75DC-8A3B-4EA5-B556-1799F5A08381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF6C75DC-8A3B-4EA5-B556-1799F5A08381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF6C75DC-8A3B-4EA5-B556-1799F5A08381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF6C75DC-8A3B-4EA5-B556-1799F5A08381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6575B983-6B6B-439D-9F63-9BCBA82F5D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6575B983-6B6B-439D-9F63-9BCBA82F5D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6575B983-6B6B-439D-9F63-9BCBA82F5D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6575B983-6B6B-439D-9F63-9BCBA82F5D0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D286076-40AF-41B5-9042-9A9EF301A321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D286076-40AF-41B5-9042-9A9EF301A321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D286076-40AF-41B5-9042-9A9EF301A321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D286076-40AF-41B5-9042-9A9EF301A321}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
